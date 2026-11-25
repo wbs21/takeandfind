@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://takeandfind.app/sitemap.xml
+Sitemap: https://wbs21.github.io/takeandfind/sitemap.xml

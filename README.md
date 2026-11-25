@@ -15,6 +15,16 @@ Support and privacy contact:
 13911100061@163.com
 ```
 
+Current public URL:
+
+```text
+https://wbs21.github.io/takeandfind/
+```
+
+Indexing timing: **wait until Take&Find is officially available on the App Store
+before submitting the sitemap or requesting indexing.** `sitemap.xml`,
+`robots.txt`, and the SEO metadata remain ready for that later submission.
+
 ## Preview locally
 
 From this directory:
@@ -29,37 +39,30 @@ Then open `http://localhost:8080/`.
 
 The site has no build step. Deploy the contents of this directory as the web root.
 
-For Cloudflare Pages:
-
-1. Connect the repository.
-2. Set the project root to `website`.
-3. Leave the build command empty.
-4. Set the output directory to `.`.
-5. Add `takeandfind.app` as a custom domain after registering it.
-
 For GitHub Pages:
 
-1. Publish this directory with Pages.
-2. After registering the production domain, add a `CNAME` file containing only
-   that hostname.
-3. Configure the DNS records requested by GitHub.
+1. Publish the contents of this directory at the root of the
+   `wbs21/takeandfind` GitHub Pages site.
+2. Keep the project path `/takeandfind/`.
+3. Do not add a repository-root `CNAME` while using the GitHub Pages hostname.
 
-The intended canonical URL is `https://takeandfind.app/`. Replace it everywhere
-before deployment if the final production domain is different. Do not add a
-custom-domain `CNAME` before the domain is actually owned and configured.
+The canonical URL is `https://wbs21.github.io/takeandfind/`. If a custom domain
+is introduced later, update the canonical, Open Graph, structured data, sitemap,
+robots, and manifest URLs together.
 
 ## Google indexing
 
 Google no longer accepts anonymous sitemap pings. Submission requires a live
 public URL and access to Google Search Console:
 
-1. Deploy the site over HTTPS.
-2. Add a Domain property or URL-prefix property in Search Console.
-3. Verify ownership through DNS or the supplied HTML verification file/tag.
-4. Submit `https://takeandfind.app/sitemap.xml`.
-5. Use URL Inspection and **Request indexing** for:
-   - `https://takeandfind.app/`
-   - `https://takeandfind.app/support.html`
-   - `https://takeandfind.app/privacy.html`
-
-Do not submit until the canonical hostname, DNS, and HTTPS certificate are live.
+1. Confirm the deployed site is available over HTTPS.
+2. Add the URL-prefix property
+   `https://wbs21.github.io/takeandfind/` in Search Console.
+3. Verify ownership with the HTML verification file provided by Search Console.
+   DNS verification is not available for the `github.io` hostname.
+4. Place the verification file at the site root and redeploy before verifying.
+5. Submit `https://wbs21.github.io/takeandfind/sitemap.xml`.
+6. Use URL Inspection and **Request indexing** for:
+   - `https://wbs21.github.io/takeandfind/`
+   - `https://wbs21.github.io/takeandfind/support.html`
+   - `https://wbs21.github.io/takeandfind/privacy.html`
