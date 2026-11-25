@@ -1,0 +1,21 @@
+{
+  "name": "Take&Find",
+  "short_name": "Take&Find",
+  "description": "One photo. One voice. Find it easily.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#eae4da",
+  "theme_color": "#eae4da",
+  "icons": [
+    {
+      "src": "assets/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons/app-icon.png",
+      "sizes": "1024x1024",
+      "type": "image/png"
+    }
+  ]
+}
