@@ -21,9 +21,15 @@ Current public URL:
 https://wbs21.github.io/takeandfind/
 ```
 
-Indexing timing: **wait until Take&Find is officially available on the App Store
-before submitting the sitemap or requesting indexing.** `sitemap.xml`,
-`robots.txt`, and the SEO metadata remain ready for that later submission.
+Current App Store listing (United States):
+
+```text
+https://apps.apple.com/us/app/take-find-where-i-put-it/id6839078004
+```
+
+Take&Find 1.0 was released on November 25, 2026. The site is now in its public
+launch state: the home page links to the App Store, and the sitemap is ready to
+be submitted for indexing.
 
 ## Preview locally
 
